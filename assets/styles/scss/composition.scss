@@ -1,8 +1,7 @@
-body > * {
+body > main > *:not(.hero) {
   margin: var(--fluid-space-m);
 }
 
-section, .section{
-  max-width: var(--max-width-content);
+.section{
   padding-bottom: var(--fluid-space-m);
 }

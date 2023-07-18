@@ -2,10 +2,7 @@
 layout: default
 ---
 
-<h1>{{page.title}}</h1>
-
-
-<div class="section herotext">
+<div class="section hero is-invers">
   {% include snippet.html snippet-id="intro" %}
 </div>
 
@@ -13,7 +10,7 @@ layout: default
   {% include snippet.html snippet-id="hauptthema" show-title=true%}
 </section>
 
-<section>
+<section class="has-seperator">
   <h2>Programm – Übersicht der Tagung</h2>
 
   <div class="section">
@@ -32,27 +29,15 @@ layout: default
   </div>
 </section>
 
-<section>
-  <h2>Anmeldung, Kontakt und mehr</h2>
-
-  <div class="registrierung">
-    {% include snippet.html snippet-id="registrierung" show-title=true hierachy-level=2 %}
-  </div>
-  
-  <div class="kontakt">
-    {% include snippet.html snippet-id="kontakt" show-title=true hierachy-level=2 %}
-  </div>
-
-  <div class="impressum">
-    {% include snippet.html snippet-id="impressum" show-title=true hierachy-level=2 %}
-  </div>
-</section>
-
-<section>
+<section class="has-seperator">
   <h2>Rahmenprogramm</h2>
   {% include rahmenprogramm.html hierachy-level=2 %}
 </section>
 
-{{ page.content }}
+<section class="has-seperator">
+  {% include snippet.html snippet-id="registrierung" show-title=true %}
 
-{% include inline-navigation.html %}
+  <div class="kontakt">
+    {% include snippet.html snippet-id="kontakt" show-title=true hierachy-level=2 %}
+  </div>
+</section>

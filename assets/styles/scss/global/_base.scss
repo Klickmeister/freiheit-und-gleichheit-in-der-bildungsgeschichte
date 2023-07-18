@@ -9,7 +9,7 @@ html {
 
 body {
   background-color: var(--color-background);
-  color: var(--color-text);
+  color: var(--color-text-dark);
   font-family: var(--ff-normal);
   font-size: var(--m);
   font-weight: var(--fw-normal);
@@ -36,8 +36,10 @@ h1 {
 }
 
 h2 {
+  padding-top: var(--fluid-space-l);
   margin-bottom: var(--fluid-space-m);
   font-size: var(--xl);
+  color: var(--darker);
 }
 
 h3 {
@@ -108,4 +110,11 @@ blockquote {
   padding-left: var(--fluid-space-s);
   border-left: solid var(--border-width-l) var(--light);
   margin-bottom: var(--fluid-space-l);
+}
+
+/* Main
+############################################################################ */
+
+main{
+  padding-bottom: var(--fluid-space-l);
 }

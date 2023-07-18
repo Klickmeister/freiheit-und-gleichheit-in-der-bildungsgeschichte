@@ -1,5 +1,8 @@
 basic_settings:
-  site_title: Freiheit und Gleichheit in der Bildungsgeschichte
+  site_title: "Freiheit und Gleichheit in der Bildungs&#173;geschichte"
+  site_subtitle: Jahrestagung der Sektion Historische Bildungsforschung
+  site_subtitle_2: 11.–13. September 2023
+  site_place: Berlin
   favicon_image: /assets/images/favicon.ico
   description: …
   edit_url: https://github.com/klickmeister/edit/main

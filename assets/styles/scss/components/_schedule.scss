@@ -1,0 +1,56 @@
+/* Schedule
+###########################################################################  */
+
+.schedule{
+  th{
+    min-width: 12rem;
+    text-align: left;
+    vertical-align: top;
+    font-weight: var(--fw-normal);
+  }
+
+  th p,
+  td p{
+    margin-bottom: 0;
+  }
+
+  th p + p,
+  td p + p{
+    margin-top: var(--half);
+  }
+
+  td{
+    padding-bottom: var(--xs);
+  }
+
+  dl{
+    padding-bottom: var(--s);
+
+    dt{
+      font-weight: var(--fw-bold);
+    }
+
+    dd{
+      p, ul{
+        margin-bottom: 0;
+      }
+    }
+  }
+
+
+  &.for-large-vp{
+    display: none;
+
+    @media screen and (min-width: 40rem) {
+      display: table;
+    }
+  }
+
+  &.for-small-vp{
+    display: block;
+    
+    @media screen and (min-width: 40rem) {
+      display: none;
+    }
+  }
+}

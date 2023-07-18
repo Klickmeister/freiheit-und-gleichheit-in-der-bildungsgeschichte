@@ -1,14 +1,15 @@
 {% assign items=site.schedule-rahmenprogramm %}
 
-<table class="schedule">
+<div class="schedule">
 {% for item in items %}
-<tr>
-  <th>{{ item.begin }}{% if (item.end | strip_newlines) != "" %} – {{ item.end }}{% endif %} Uhr</th>
+<dl class="schedule-item">
+  <dt>{{ item.begin }}{% if (item.end | strip_newlines) != "" %} – {{ item.end }}{% endif %} Uhr</dt>
   {% assign content = item.content | strip_newlines %}
-  <td>
-    {% if item.get-more %}<a href="{{item.get-more}}">{% endif %}
-    {% if content == "" %}{{ item.title }}{% else %}{{ item.content }}{% endif %}</td>
-    {% if item.get-more %}</a>{% endif %}
-</tr>
+  <dd>
+  {% if item.get-more %}<a href="{{item.get-more}}">{% endif %}
+  {% if content == "" %}{{ item.title }}{% else %}{{ item.content }}{% endif %}
+  {% if item.get-more %}</a>{% endif %}
+  </dd>
+</dl>
 {% endfor %}
-</table>
+</div>

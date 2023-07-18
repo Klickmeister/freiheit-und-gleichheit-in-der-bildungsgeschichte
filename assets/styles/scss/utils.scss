@@ -1,4 +1,61 @@
+/* Reverse: Flips Text (SPAM)
+############################################################################ */
+
 .rev {
   direction: rtl;
   unicode-bidi: bidi-override;
+}
+
+/* Is invers
+############################################################################ */
+.is-invers{
+
+  background-color: var(--color-hero-background);
+
+  & *{
+    color: var(--color-hero-text);
+  }
+
+  h1, h2, h3{
+    color: var(--light);
+  }
+  
+}
+
+/* Is dark
+############################################################################ */
+.is-dark{
+
+  background-color: var(--darker);
+
+  & *{
+    color: var(--color-hero-text);
+  }
+
+  h1, h2, h3{
+    color: var(--light);
+  }
+  
+}
+
+/* Is Full Width
+############################################################################ */
+.is-full-width{
+
+  margin-left: 0 !important;
+  margin-right: 0!important;
+  margin-bottom: 0 !important;
+  padding: var(--fluid-space-m);
+  
+}
+
+/* Has seperator
+############################################################################ */
+.has-seperator{
+  &:before{
+    content: "";
+    display: block;
+    border-top: solid var(--border-width-l) var(--hu-blau-2);
+    width: 33%;
+  }
 }

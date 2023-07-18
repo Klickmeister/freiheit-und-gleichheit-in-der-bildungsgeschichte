@@ -1,5 +1,5 @@
 :root {
-  --bfs: clamp(1rem, calc(0.5rem + 1vw), 2rem);
+  --bfs: clamp(0.8rem, calc(0.5rem + 1vw), 2rem);
   --half: calc(var(--bfs) / 2); // halbes geviert
   --quat: calc(var(--bfs) / 4); // viertel geviert
   --xxs: calc(var(--bfs) * 0.4);
@@ -15,46 +15,75 @@
   --fluid-space-m: calc(var(--m) + 2vw);
   --fluid-space-l: calc(var(--l) + 3vw);
   --max-width-content: calc(var(--m) * 40);
-  --mi-lila: #9313ce;
-  --mi-gruen: #00ad2f;
-  --mi-pink: #d16;
-  --mi-blau: #4952e1;
-  --light: #ccc;
-  --lighter: #eee;
-  --lightest: #fff;
+
+  --hu-blau-1: #00376c;
+  --hu-blau-2: #004c90; 
+  --hu-blau-3: #5b89b0;
+  --hu-blau-4: #d7dde1;
+  --hu-digital-blau: #0000ff;
+  --hu-hintergrund-1:#fafaf5;
+  --hu-hintergrund-2:#f0f0eb;
+  --hu-hintergrund-3:#e6e6e1;
+  --hu-schwarz-1: #0a0a19;
+  --hu-schwarz-2: #74747e;
+  --hu-schwarz-3: #cfcfd1;
+  --hu-accent-1: #e5007c;
+  --hu-accent-2: #821f71;
+  --hu-accent-3: #e74306;
+  --hu-accent-4: #e30031;
+  --hu-accent-5: #ffd400;
+  --hu-accent-6: #009ee3;
+
+  --light: var(--hu-hintergrund-2);
+  --lighter: var(--hu-hintergrund-1);
+  --lightest: #efefef;
   --lighten: rgb(255 255 255 / 50%);
   --lighten-strong: rgb(255 255 255 / 80%);
-  --dark: rgba(0,0,0,0.6);
-  --darker: rgba(0,0,0,0.8);
-  --darkest: rgba(0,0,0,1);
+  --dark: var(--hu-schwarz-3);
+  --darker: var(--hu-schwarz-2);
+  --darkest: var(--hu-schwarz-1);
   --darken: rgb(0 0 0 / 10%);
-  --color-text: var(--darker);
-  --color-headline: var(--dark);
-  --color-accent: var(--mi-pink);
+
+  --color-text-dark: var(--darkest);
+  --color-text-light: var(--lightest);
+  --color-headline: var(--darker);
+  --color-accent: var(--hu-accent-2);
   --color-decoration: var(--dark);
-  --color-background: var(--lighter);
+  --color-background: var(--lightest);
+
+  --color-hero-background: var(--hu-accent-2);
+  --color-hero-text: var(--lightest);
+
   --ff-normal: "Atkinson", Verdana, Arial, sans-serif;
   --ff-serif: "Atkinson", serif;
   --ff-code: "Atkinson", monospace;
   --ff-headline: "Atkinson", Verdana, Arial, monospace;
   --ff-icons: "MaterialIcons", serif;
+
   --fw-normal: 400;
   --fw-medium: 500;
   --fw-bold: 700;
+  
   --lh-normal: 140%;
   --lh-tight: 100%;
   --lh-loose: 150%;
+  
   --tr-fast: 0.2s;
   --tr-slow: 0.6s;
   --tr-delay: 1.2s;
+  
   --op-low: 0.4;
   --op-medium: 0.6;
+  
   --shadow-l: 0 0 var(--xs) rgb(0 0 0 / 50%);
   --shadow-xl: var(--half) var(--half) var(--m) rgb(0 0 0 / 30%);
+  
   --border-width-s: 1px;
   --border-width-m: 3px;
   --border-width-l: 6px;
   --border-radius-s: 3px;
+
+  --max-width-partner-col: 20rem;
 }
 
 /* Viewportgrößen für Media Queries

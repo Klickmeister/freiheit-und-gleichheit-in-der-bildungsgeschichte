@@ -1,0 +1,53 @@
+/* Main Header
+###########################################################################  */
+
+.main-header {
+  background-color: var(--color-hero-background);
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: var(--fluid-space-l) var(--fluid-space-m) var(--fluid-space-m) var(--fluid-space-m);
+
+  &__content {
+
+    &::after{
+      content: "";
+      display: block;
+      border-bottom: solid var(--border-width-m) var(--color-hero-text);
+      padding-bottom: var(--fluid-space-m);
+      width: 100%;
+    }
+
+    .title{
+      margin-bottom: var(--fluid-space-s);
+    }
+
+    .subtitle{
+      padding-top: 0;
+      font-weight: var(--fw-normal);
+
+      span{
+        display: block;
+
+        &:nth-child(2){
+          color: var(--dark);
+          font-weight: var(--fw-medium);
+        }
+      }
+    }
+
+    *{
+      color: var(--color-hero-text);
+    }
+  }
+
+  & .logo{
+    display: block;
+    padding-bottom: var(--fluid-space-l);
+
+    & img{
+      width: clamp(6rem, 22vw, 20rem);
+    }
+  }
+
+}
