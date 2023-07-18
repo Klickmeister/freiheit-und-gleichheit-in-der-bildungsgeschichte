@@ -1,0 +1,14 @@
+{% assign panel-id=include.panel-id %}
+
+{% assign panel-meta = site.panel-hosts | where: "panel-id", panel-id | first %}
+<header>
+  <h2>{{panel-id}}. {{panel-meta.title}}</h2>
+  <h3>Leitung: {{panel-meta.host}} // {{panel-meta.from}}</h3>
+  <h4>{{panel-meta.venue}}</h4>
+</header>
+
+{% assign panel-items = site.panel-items | where: "panel-id", panel-id %}
+{% for item in panel-items %}
+  <h4>{{item.begin}}: {{item.speaker}} // {{item.from}}</h4>
+  {{item.content}}
+{% endfor %}

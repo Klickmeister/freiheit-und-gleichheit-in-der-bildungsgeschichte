@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<h1>{{page.title}}</h1>
+
+
+<div class="section herotext">
+  {% include snippet.html snippet-id="intro" %}
+</div>
+
+<section>
+  {% include snippet.html snippet-id="hauptthema" show-title=true%}
+</section>
+
+<section>
+  <h2>Programm – Übersicht der Tagung</h2>
+
+  <div class="section">
+    <h3>Montag, 11. September 2023</h3>
+      {% include schedule.html content-source="schedule-day-1" %}
+  </div>
+  
+  <div class="section">
+  <h3>Dienstag, 12. September 2023</h3>
+    {% include schedule.html content-source="schedule-day-2" %}
+  </div>
+
+  <div class="section">
+    <h3>Mittwoch, 13. September 2023</h3>
+      {% include schedule.html content-source="schedule-day-3" %}
+  </div>
+</section>
+
+<section>
+  <h2>Anmeldung, Kontakt und mehr</h2>
+
+  <div class="registrierung">
+    {% include snippet.html snippet-id="registrierung" show-title=true hierachy-level=2 %}
+  </div>
+  
+  <div class="kontakt">
+    {% include snippet.html snippet-id="kontakt" show-title=true hierachy-level=2 %}
+  </div>
+
+  <div class="impressum">
+    {% include snippet.html snippet-id="impressum" show-title=true hierachy-level=2 %}
+  </div>
+</section>
+
+<section>
+  <h2>Rahmenprogramm</h2>
+  {% include rahmenprogramm.html hierachy-level=2 %}
+</section>
+
+{{ page.content }}
+
+{% include inline-navigation.html %}

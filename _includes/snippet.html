@@ -1,0 +1,11 @@
+{% assign snippet-id = include.snippet-id | default: page %}
+{% assign show-title = include.show-title | default: false %}
+{% assign level = include=hierachy-level | default: 1 %}
+{% assign pages = site.pages | where: "id", snippet-id %}
+
+{% for page in pages %}
+{% if show-title %}
+<h{{level | plus: 1}}>{{ page.title }}</h{{level | plus: 1}}>
+{% endif %}
+{{ page.content | markdownify }}
+{% endfor %}

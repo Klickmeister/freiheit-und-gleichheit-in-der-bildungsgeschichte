@@ -1,0 +1,5 @@
+{% assign speakers = site.keynote-speaker %}
+
+{% for speaker in speakers %}
+  {% include single-speaker.html speaker=speaker %}
+{% endfor %}

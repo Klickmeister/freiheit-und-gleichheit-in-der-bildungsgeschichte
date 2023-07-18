@@ -1,0 +1,8 @@
+---
+speaker: Wiebke Hiemesch
+from: Universität Hildesheim
+begin: "09:30"
+panel-id: "V.2"
+---
+
+„Kampf um die Bewahrung der inneren Freiheit“ – Pradoxien klandestiner Mädchen- und Frauenbildung im Frauen-Konzentrationslager Ravensbrück

@@ -1,0 +1,10 @@
+/* Article
+############################################################################ */
+
+.article{
+  padding-right: var(--fluid-space-m);
+
+  main > * {
+    max-width: var(--max-width-content);
+  }
+}
