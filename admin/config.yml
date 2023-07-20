@@ -13,3 +13,22 @@ collections:
       - { label: 'Name des Hosts', name: 'host', widget: 'string' }
       - { label: 'Hochschule des Hosts', name: 'from', widget: 'string' }
       - { label: 'Raum', name: 'venue', widget: 'string' }
+  - name: 'panel-items'
+    label: 'Panel Items'
+    folder: '_panel-items/'
+    fields:
+      - { label: 'Speaker', name: 'speaker', widget: 'string' }
+      - { label: 'Organisation', name: 'from', widget: 'string' }
+      - { label: 'Beginn', name: 'begin', widget: 'string' }
+      - { label: 'Panel ID', name: 'panel-id', widget: 'string' }
+      - { label: 'Content', name: 'content', widget: 'markdown' }
+  - name: 'schedule-day-1'
+    label: 'Schedule Day 1'
+    folder: '_schedule-day-1/'
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Datum', name: 'date', widget: 'date' }
+      - { label: 'Beginn', name: 'begin', widget: 'string' }
+      - { label: 'Ende', name: 'end', widget: 'string' }
+      - { label: 'Ort', name: 'venue', widget: 'string' }
+      - { label: 'Content', name: 'content', widget: 'markdown' }
