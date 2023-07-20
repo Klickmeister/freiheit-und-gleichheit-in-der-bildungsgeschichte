@@ -23,8 +23,28 @@ collections:
       - { label: 'Panel ID', name: 'panel-id', widget: 'string' }
       - { label: 'Content', name: 'body', widget: 'markdown' }
   - name: 'schedule-day-1'
-    label: 'Schedule Day 1'
+    label: 'Schedule Tag 1'
     folder: '_schedule-day-1/'
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Datum', name: 'date', widget: 'date' }
+      - { label: 'Beginn', name: 'begin', widget: 'string' }
+      - { label: 'Ende', name: 'end', widget: 'string' }
+      - { label: 'Ort', name: 'venue', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown', required: false }
+  - name: 'schedule-day-2'
+    label: 'Schedule Tag 2'
+    folder: '_schedule-day-2/'
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Datum', name: 'date', widget: 'date' }
+      - { label: 'Beginn', name: 'begin', widget: 'string' }
+      - { label: 'Ende', name: 'end', widget: 'string' }
+      - { label: 'Ort', name: 'venue', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown', required: false }
+  - name: 'schedule-day-3'
+    label: 'Schedule Tag 3'
+    folder: '_schedule-day-3/'
     fields:
       - { label: 'Titel', name: 'title', widget: 'string' }
       - { label: 'Datum', name: 'date', widget: 'date' }
