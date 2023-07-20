@@ -69,3 +69,9 @@ collections:
       - { label: 'URL für weitere Infos', name: 'external-info-url', widget: 'string', required: false }
       - { label: 'CV', name: 'about', widget: 'markdown' }
       - { label: 'Content', name: 'body', widget: 'markdown', modes: ['raw'] }
+  - name: 'content-snippets'
+    label: 'Content Schnippsel'
+    folder: 'content/'
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown', modes: ['raw'] }
