@@ -4,6 +4,12 @@
 .panel{
   h4{
     margin-bottom: var(--half);
+
+    .begin{
+      font-weight: var(--fw-normal);
+      display: block;
+      padding-bottom: var(--quad);
+    }
   }
   
   &-header{

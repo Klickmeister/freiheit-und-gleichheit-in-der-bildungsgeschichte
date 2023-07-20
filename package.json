@@ -6,10 +6,9 @@
   "scripts": {
     "lint": "stylelint assets/styles/scss/**/*.scss",
     "lint:fix": "stylelint assets/styles/scss/**/*.scss --fix",
-    "dev": "jekyll serve -l",
     "js:lint": "eslint assets/scripts/**/*.js",
     "js:lint:fix": "eslint assets/scripts/**/*.js --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "bundle exec jekyll serve -l"
   },
   "repository": {
     "type": "git",

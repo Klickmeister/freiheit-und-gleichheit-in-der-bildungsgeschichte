@@ -6,21 +6,28 @@
 
     <title>{{ site.data.settings.basic_settings.site_title }} // {% if page.title %}{{ page.title }}{% endif %}</title>
 
+    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicons/favicon.ico">
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/main.css">
+    
+    <script src="{{ site.baseurl }}/assets/scripts/main.js"></script>
 
   </head>
 
   <body class="{{ page.layout }}">
-    {% include header.html header-separator=page.header-separator %}
+    <div class="content-wrap">
+      {% include header.html header-separator=page.header-separator snippet-id=page.header-snippet-id %}
+  
+      <main>
+        {{ content }}
+      </main>
+    </div>
 
-    <main>
-
-	  {{ content }}
-    
-    </main>
+    <aside class="sidebar">
+      {% include sidebar.html %}
+    </aside>
 
     {% include footer.html %}
-    {% include scripts.html %}
+
   </body>
 
 </html>

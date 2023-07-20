@@ -2,24 +2,20 @@
 layout: default
 ---
 
-<div class="section hero is-invers">
-  {% include snippet.html snippet-id="intro" %}
-</div>
-
 <section>
-  {% include snippet.html snippet-id="hauptthema" show-title=true%}
+  {% include snippet.html snippet-id="hauptthema" show-title=true show-in-nav=true %}
 </section>
 
 <section class="has-separator">
-  <h2>Programm – Übersicht der Tagung</h2>
+  <h2 id="program" title="Programm">Programm</h2>
 
   <div class="section">
     <h3>Montag, 11. September 2023</h3>
-      {% include schedule.html content-source="schedule-day-1" %}
+    {% include schedule.html content-source="schedule-day-1" %}
   </div>
   
   <div class="section">
-  <h3>Dienstag, 12. September 2023</h3>
+    <h3>Dienstag, 12. September 2023</h3>
     {% include schedule.html content-source="schedule-day-2" %}
   </div>
 
@@ -30,14 +26,14 @@ layout: default
 </section>
 
 <section class="has-separator">
-  <h2>Rahmenprogramm</h2>
+  <h2 id="rahmenprogramm" title="Rahmenprogramm">Rahmenprogramm</h2>
   {% include rahmenprogramm.html hierachy-level=2 %}
 </section>
 
 <section class="has-separator">
-  {% include snippet.html snippet-id="registrierung" show-title=true %}
+  {% include snippet.html snippet-id="registrierung" show-title=true show-in-nav=true %}
 
   <div class="kontakt">
-    {% include snippet.html snippet-id="kontakt" show-title=true hierachy-level=2 %}
+    {% include snippet.html snippet-id="kontakt" show-title=true hierachy-level=2 show-in-nav=true %}
   </div>
 </section>

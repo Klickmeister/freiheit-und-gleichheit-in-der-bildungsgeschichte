@@ -1,0 +1,38 @@
+/* Sidebar
+###########################################################################  */
+
+.sidebar{
+  position: sticky;
+  top: 0;
+  align-self: start;
+  margin: var(--fluid-space-s);
+  padding: var(--m) 0 var(--fluid-space-s) 0;
+
+  h3{
+    margin-bottom: var(--m);
+    color: var(--darker);
+  }
+  
+  .logo{
+    display: none;
+    margin-bottom: var(--fluid-space-s);
+    width: calc(100% - (var(--fluid-space-s) * 2));
+    text-align: center;
+
+    img{
+      width: 12rem;
+    }
+  }
+
+  @media screen and (min-width: 60rem) {
+    border: none;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 80rem) {
+    .logo{
+      display: block;
+    }
+  }
+
+}

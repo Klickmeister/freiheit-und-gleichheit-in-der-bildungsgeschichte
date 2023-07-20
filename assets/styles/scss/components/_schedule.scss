@@ -2,26 +2,9 @@
 ###########################################################################  */
 
 .schedule{
-  th{
-    min-width: 12rem;
-    text-align: left;
-    vertical-align: top;
-    font-weight: var(--fw-normal);
-  }
 
-  th p,
-  td p{
-    margin-bottom: 0;
-  }
-
-  th p + p,
-  td p + p{
-    margin-top: var(--half);
-  }
-
-  td{
-    padding-bottom: var(--xs);
-  }
+  padding-top: var(--fluid-space-s);
+  padding-bottom: var(--fluid-space-s);
 
   dl{
     padding-bottom: var(--s);
@@ -37,20 +20,22 @@
     }
   }
 
+  @container (min-width: 40rem){
+    dl{
+      display: grid;
+      grid-template-columns: 18ch 1fr;
 
-  &.for-large-vp{
-    display: none;
+      dt::before{
+        content: "";
+        display: block;
+        width: 33vw;
+        margin-bottom: var(--s);
+        border-top: solid var(--border-width-s) var(--dark);
+      }
 
-    @media screen and (min-width: 40rem) {
-      display: table;
-    }
-  }
-
-  &.for-small-vp{
-    display: block;
-    
-    @media screen and (min-width: 40rem) {
-      display: none;
+      dd{
+        padding-top: var(--s);
+      }
     }
   }
 }

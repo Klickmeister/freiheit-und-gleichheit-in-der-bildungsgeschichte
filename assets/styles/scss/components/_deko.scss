@@ -1,0 +1,19 @@
+/* Deko
+###########################################################################  */
+
+.deko{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  mix-blend-mode: darken;
+
+  z-index: 0;
+  
+  img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+  }
+}

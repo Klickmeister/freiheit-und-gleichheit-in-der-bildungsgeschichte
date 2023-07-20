@@ -50,4 +50,12 @@
     }
   }
 
+  @media screen and (min-width: 80rem) {
+
+    & .logo{
+      display: none;
+    }
+    
+  }
+
 }

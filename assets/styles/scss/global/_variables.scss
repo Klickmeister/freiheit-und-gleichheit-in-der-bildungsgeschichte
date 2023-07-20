@@ -1,7 +1,7 @@
 :root {
-  --bfs: clamp(1rem, calc(0.5rem + 1vw), 2rem);
+  --bfs: clamp(1rem, calc(0.5rem + 1vw), 1.5rem);
   --half: calc(var(--bfs) / 2); // halbes geviert
-  --quat: calc(var(--bfs) / 4); // viertel geviert
+  --quad: calc(var(--bfs) / 4); // viertel geviert
   --xxs: calc(var(--bfs) * 0.4);
   --xs: calc(var(--bfs) * 0.6);
   --s: calc(var(--bfs) * 0.8);
@@ -11,12 +11,12 @@
   --xxl: calc(var(--bfs) * 2.5);
   --xxxl: calc(var(--bfs) * 3);
   --xxxxl: calc(var(--bfs) * 4);
+
   --fluid-space-s: calc(var(--s) + 1vw);
   --fluid-space-m: calc(var(--m) + 2vw);
   --fluid-space-l: calc(var(--l) + 3vw);
   --fluid-space-xl: calc(var(--xl) + 4vw);
-  --max-width-content: calc(var(--m) * 40);
-
+  
   --hu-blau-1: #00376c;
   --hu-blau-2: #004c90; 
   --hu-blau-3: #5b89b0;
@@ -85,8 +85,7 @@
   --border-radius-s: 3px;
 
   --max-width-partner-col: 20rem;
+  --max-width-content: calc(var(--m) * 50);
+  --max-width-body: 90rem;
 }
 
-/* Viewportgrößen für Media Queries
-   Hier greifen Custom Properties nicht. */
-$vp-large: 1400px;
