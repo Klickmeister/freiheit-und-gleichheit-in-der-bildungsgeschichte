@@ -10,7 +10,7 @@
 
   &__content {
 
-    &::after{
+    &.has-header-separator::after{
       content: "";
       display: block;
       border-bottom: solid var(--border-width-m) var(--color-hero-text);

@@ -1,0 +1,15 @@
+/* Panel
+###########################################################################  */
+
+.panel{
+  h4{
+    margin-bottom: var(--half);
+  }
+  
+  &-header{
+    p{
+      font-weight: var(--fw-bold);
+      color: var(--color-accent);
+    }
+  }
+}

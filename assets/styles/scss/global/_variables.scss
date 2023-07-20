@@ -1,5 +1,5 @@
 :root {
-  --bfs: clamp(0.8rem, calc(0.5rem + 1vw), 2rem);
+  --bfs: clamp(1rem, calc(0.5rem + 1vw), 2rem);
   --half: calc(var(--bfs) / 2); // halbes geviert
   --quat: calc(var(--bfs) / 4); // viertel geviert
   --xxs: calc(var(--bfs) * 0.4);
@@ -14,6 +14,7 @@
   --fluid-space-s: calc(var(--s) + 1vw);
   --fluid-space-m: calc(var(--m) + 2vw);
   --fluid-space-l: calc(var(--l) + 3vw);
+  --fluid-space-xl: calc(var(--xl) + 4vw);
   --max-width-content: calc(var(--m) * 40);
 
   --hu-blau-1: #00376c;

@@ -1,0 +1,22 @@
+/* Speaker
+###########################################################################  */
+
+.speaker{
+
+  &-from{
+    color: var(--darker);
+    margin-top: calc(var(--fluid-space-s) * -1) !important;
+  }
+
+  & + & {
+    margin-top: var(--fluid-space-xl);
+  }
+
+  .talk{
+    h3{
+      font-weight: var(--fw-medium);
+      padding-top: var(--fluid-space-s);
+    }
+
+  }
+}

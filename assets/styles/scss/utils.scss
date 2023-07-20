@@ -49,13 +49,47 @@
   
 }
 
-/* Has seperator
+/* Has separator
 ############################################################################ */
-.has-seperator{
+.has-separator{
   &:before{
     content: "";
     display: block;
     border-top: solid var(--border-width-l) var(--hu-blau-2);
     width: 33%;
   }
+}
+
+/* Is Content Headline
+############################################################################ */
+.is-content-headline{
+  color: var(--color-accent);
+  font-size: var(--xxl);
+  padding-bottom: var(--fluid-space-m);
+}
+
+/* Is Headline Group
+############################################################################ */
+.is-headline-group{
+  padding-top: var(--fluid-space-m);
+  margin-bottom: var(--fluid-space-m);
+
+  & > *{
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  & > h2{
+    margin-bottom: var(--half);
+  }
+
+}
+
+/* Is Separator
+############################################################################ */
+.is-separator{
+  display: inline-block;
+  padding-left: 0.5ch;
+  padding-right: 0.5ch;
+  color: var(--darker);
 }

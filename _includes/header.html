@@ -1,6 +1,11 @@
-<header class="main-header">
+{% if include.header-separator == true %}
+  {% assign separator = "has-header-separator" %}
+{% else %}
+  {% assign separator = "" %}
+{% endif %}
 
-  <div class="main-header__content">
+<header class="main-header">
+  <div class="main-header__content {{separator}}">
     <h1 class="title">{{site.data.settings.basic_settings.site_title}}</h1>
     <h2 class="subtitle"><span>{{site.data.settings.basic_settings.site_subtitle}}</span><span>{{site.data.settings.basic_settings.site_subtitle_2}}</span><span>{{site.data.settings.basic_settings.site_place}}</span></h2>
   </div>
