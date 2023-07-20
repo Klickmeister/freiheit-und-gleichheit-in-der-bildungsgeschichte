@@ -31,4 +31,4 @@ collections:
       - { label: 'Beginn', name: 'begin', widget: 'string' }
       - { label: 'Ende', name: 'end', widget: 'string' }
       - { label: 'Ort', name: 'venue', widget: 'string' }
-      - { label: 'Content', name: 'body', widget: 'markdown' }
+      - { label: 'Content', name: 'body', widget: 'markdown', optional: true }
