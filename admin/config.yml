@@ -68,4 +68,4 @@ collections:
       - { label: 'Organisation', name: 'from', widget: 'string' }
       - { label: 'URL für weitere Infos', name: 'external-info-url', widget: 'string', required: false }
       - { label: 'CV', name: 'about', widget: 'markdown' }
-      - { label: 'Content', name: 'body', widget: 'markdown', required: false }
+      - { label: 'Content', name: 'body', widget: 'markdown', modes: 'raw' }
