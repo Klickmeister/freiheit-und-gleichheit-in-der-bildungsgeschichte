@@ -21,7 +21,7 @@ collections:
       - { label: 'Organisation', name: 'from', widget: 'string' }
       - { label: 'Beginn', name: 'begin', widget: 'string' }
       - { label: 'Panel ID', name: 'panel-id', widget: 'string' }
-      - { label: 'Content', name: 'content', widget: 'markdown' }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
   - name: 'schedule-day-1'
     label: 'Schedule Day 1'
     folder: '_schedule-day-1/'
@@ -31,4 +31,4 @@ collections:
       - { label: 'Beginn', name: 'begin', widget: 'string' }
       - { label: 'Ende', name: 'end', widget: 'string' }
       - { label: 'Ort', name: 'venue', widget: 'string' }
-      - { label: 'Content', name: 'content', widget: 'markdown' }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
