@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: Klickmeister/freiheit-und-gleichheit-in-der-bildungsgeschichte
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: 'assets/uploads'
+collections:
+  - name: 'panel-hosts'
+    label: 'Panel Hosts & metadata'
+    folder: '_panel-hosts/'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Panel ID', name: 'panel-id', widget: 'string' }
+      - { label: 'Name des Hosts', name: 'host', widget: 'string' }
+      - { label: 'Hochschule des Hosts', name: 'from', widget: 'string' }
+      - { label: 'Raum', name: 'venue', widget: 'string' }
