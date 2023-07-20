@@ -60,3 +60,12 @@ collections:
       - { label: 'Datum', name: 'date', widget: 'date' }
       - { label: 'Beginn', name: 'begin', widget: 'string' }
       - { label: 'Content', name: 'body', widget: 'markdown', required: false }
+  - name: 'keynote-speaker'
+    label: 'Keynote Speaker'
+    folder: '_keynote-speaker/'
+    fields:
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Organisation', name: 'from', widget: 'string' }
+      - { label: 'URL für weitere Infos', name: 'external-info-url', widget: 'string', required: false }
+      - { label: 'CV', name: 'about', widget: 'markdown' }
+      - { label: 'Content', name: 'body', widget: 'markdown', required: false }
