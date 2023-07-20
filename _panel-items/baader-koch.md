@@ -4,4 +4,4 @@ from: Universität Hildesheim
 begin: 10:00
 panel-id: V.2
 ---
-Gleichheit der Geschlechter in Bildungsmedien der DDR? What
+Gleichheit der Geschlechter in Bildungsmedien der DDR?
