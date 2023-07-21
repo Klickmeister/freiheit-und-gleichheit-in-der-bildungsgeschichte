@@ -55,10 +55,10 @@
   --color-hero-background: var(--hu-accent-2);
   --color-hero-text: var(--lightest);
 
-  --ff-normal: "Atkinson", Verdana, Arial, sans-serif;
-  --ff-serif: "Atkinson", serif;
-  --ff-code: "Atkinson", monospace;
-  --ff-headline: "Atkinson", Verdana, Arial, monospace;
+  --ff-normal: Verdana, Arial, sans-serif;
+  --ff-serif: Verdana, serif;
+  --ff-code: Courier, monospace;
+  --ff-headline: Verdana, Verdana, Arial, monospace;
   --ff-icons: "MaterialIcons", serif;
 
   --fw-normal: 400;
@@ -66,7 +66,7 @@
   --fw-bold: 700;
   
   --lh-normal: 140%;
-  --lh-tight: 100%;
+  --lh-tight: 110%;
   --lh-loose: 150%;
   
   --tr-fast: 0.2s;

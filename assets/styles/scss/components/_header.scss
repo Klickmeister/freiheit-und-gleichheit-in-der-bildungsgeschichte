@@ -20,11 +20,13 @@
 
     .title{
       margin-bottom: var(--fluid-space-s);
+      font-size: var(--xl);
     }
 
     .subtitle{
       padding-top: 0;
       font-weight: var(--fw-normal);
+      font-size: var(--l);
 
       span{
         display: block;
@@ -33,6 +35,16 @@
           color: var(--dark);
           font-weight: var(--fw-medium);
         }
+      }
+    }
+
+    @media screen and (min-width: 600px){
+      .title{
+        font-size: var(--xxl);
+      }
+  
+      .subtitle{
+        font-size: var(--xl);
       }
     }
 
