@@ -28,7 +28,7 @@ collections:
     fields:
       - { label: 'Titel', name: 'title', widget: 'string' }
       - { label: 'Datum', name: 'date', widget: 'date' }
-      - { label: 'Beginn', name: 'begin', widget: 'string' }
+      - { label: 'Beginn', name: 'begin', widget: 'datetime' }
       - { label: 'Ende', name: 'end', widget: 'string' }
       - { label: 'Ort', name: 'venue', widget: 'string' }
       - { label: 'Content', name: 'body', widget: 'markdown', required: false, modes: ['raw'] }
