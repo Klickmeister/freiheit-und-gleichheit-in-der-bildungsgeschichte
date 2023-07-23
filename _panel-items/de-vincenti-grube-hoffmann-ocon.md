@@ -1,7 +1,7 @@
 ---
 speaker: Dr. Andrea De Vincenti, Prof. Dr. Norbert Grube & Prof. Dr. Andreas Hoffmann-Ocon
 from: Pädagogische Hochschule Zürich
-begin: "14:30"
+begin: 2023-09-12 14:30
 panel-id: "IV.1"
 ---
 

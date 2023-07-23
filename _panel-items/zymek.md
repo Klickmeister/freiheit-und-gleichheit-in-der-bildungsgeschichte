@@ -1,7 +1,7 @@
 ---
 speaker: Prof. Dr. Bernd Zymek
 from: Universität Münster
-begin: "17:00"
+begin: 2023-09-11 17:00
 panel-id: "II.2"
 ---
 

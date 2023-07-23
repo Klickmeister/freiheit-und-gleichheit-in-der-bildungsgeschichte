@@ -3,7 +3,7 @@
 <div class="schedule">
 {% for item in items %}
 <dl class="schedule-item">
-  <dt>{{ item.begin }}{% if (item.end | strip_newlines) != "" %} – {{ item.end }}{% endif %} Uhr</dt>
+  <dt>{{ item.begin | date: "%H:%M" }}{% if (item.end | strip_newlines) != "" %} – {{ item.end | date: "%H:%M" }}{% endif %} Uhr</dt>
   {% assign content = item.content | strip_newlines %}
   <dd>
   {% if item.get-more %}<a href="{{item.get-more}}">{% endif %}

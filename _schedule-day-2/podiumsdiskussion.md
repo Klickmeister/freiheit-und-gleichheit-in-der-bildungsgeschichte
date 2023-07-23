@@ -1,8 +1,8 @@
 ---
 title: Podiumsdiskussion 
 date: 2023-09-12
-begin: "11:30"
-end: "13:00"
+begin: 2023-09-12 11:30
+end: 2023-09-12 13:00
 venue: 1.101
 ---
 

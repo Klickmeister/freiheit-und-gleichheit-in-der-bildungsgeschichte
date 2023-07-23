@@ -1,7 +1,7 @@
 ---
 speaker: Dr. Ami Kobayashi
 from: Technische Universität Kaiserslautern-Landau
-begin: "16:30"
+begin: 2023-09-11 16:30
 panel-id: "II.1"
 ---
 

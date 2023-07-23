@@ -1,7 +1,7 @@
 ---
 title: Keynote
 date: 2023-09-11
-begin: "19:20"
+begin: 2023-09-11 19:20
 end:
 ---
 

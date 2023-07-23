@@ -1,7 +1,7 @@
 ---
 speaker: Prof. Dr. Lucien Criblez
 from: Universität Zürich
-begin: "14:30"
+begin: 2023-09-11 14:30
 panel-id: "I.2"
 ---
 

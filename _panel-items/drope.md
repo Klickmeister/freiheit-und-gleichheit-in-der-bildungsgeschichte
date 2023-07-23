@@ -1,7 +1,7 @@
 ---
 speaker: Dr. Tilman Drope
 from: DIPF, Leibniz-Institut für Bildungsforschung und Bildungsinformation, Berlin
-begin: "09:30"
+begin: 2023-09-13 09:30
 panel-id: "V.3"
 ---
 

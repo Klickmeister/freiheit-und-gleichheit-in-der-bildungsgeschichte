@@ -1,7 +1,7 @@
 ---
 speaker: Prof. Dr. Sylvia Kesper-Biermann
 from: Universität Hamburg
-begin: "17:00"
+begin: 2023-09-11 17:00
 panel-id: "II.1"
 ---
 

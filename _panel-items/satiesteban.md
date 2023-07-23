@@ -1,7 +1,7 @@
 ---
 speaker: Andra Satiesteban
 from: Universidad Complutense de Madrid / Spanien
-begin: "09:30"
+begin: 2023-09-12 09:30
 panel-id: "III.2"
 ---
 

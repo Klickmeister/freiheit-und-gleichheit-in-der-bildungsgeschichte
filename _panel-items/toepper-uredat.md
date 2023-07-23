@@ -1,7 +1,7 @@
 ---
 speaker: Daniel Töpper & Jan Uredat
 from: Humboldt-Universität zu Berlin
-begin: "09:00"
+begin: 2023-09-13 09:00
 panel-id: "V.1"
 ---
 

@@ -1,7 +1,7 @@
 ---
 speaker: Dr. Katja Grundig de Vazquez
 from: Universität Jena
-begin: "09:00"
+begin: 2023-09-13 09:00
 panel-id: "V.2"
 ---
 

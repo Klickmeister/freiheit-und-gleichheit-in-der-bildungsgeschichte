@@ -1,7 +1,7 @@
 ---
 speaker: Anne Otto
 from: Universität Halle
-begin: "09:30"
+begin: 2023-09-13 09:30
 panel-id: "V.1"
 ---
 

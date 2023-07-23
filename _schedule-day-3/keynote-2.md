@@ -1,8 +1,8 @@
 ---
 title: Keynote II
-date: 2023-09-24
-begin: "11:30"
-end: "13:00"
+date: 2023-09-23
+begin: 2023-09-13 11:30
+end: 2023-09-13 13:00
 venue:
 get-more: keynote-speaker
 ---

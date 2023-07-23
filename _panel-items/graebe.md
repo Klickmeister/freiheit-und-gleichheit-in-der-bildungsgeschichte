@@ -1,7 +1,7 @@
 ---
 speaker: Viktoria Gräbe
 from: Universität Hildesheim
-begin: "15:00"
+begin: 2023-09-12 15:00
 panel-id: "IV.2"
 ---
 

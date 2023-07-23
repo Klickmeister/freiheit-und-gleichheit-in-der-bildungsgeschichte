@@ -10,7 +10,7 @@
 
 {% assign panel-items = site.panel-items | where: "panel-id", panel-id %}
 {% for item in panel-items %}
-  <h4><span class="begin">{{item.begin}} Uhr</span> {{item.speaker}}<span class="is-separator">//</span>{{item.from}}</h4>
+  <h4><span class="begin">{{item.begin | date: "%H:%M" }} Uhr</span> {{item.speaker}}<span class="is-separator">//</span>{{item.from}}</h4>
   {{item.content}}
 {% endfor %}
 </section>

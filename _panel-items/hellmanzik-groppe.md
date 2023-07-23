@@ -1,7 +1,7 @@
 ---
 speaker: Dr. Timm Gerd Hellmanzik & Prof. Dr. Carola Groppe
 from: Universität der Bundeswehr Hamburg
-begin: "14:00"
+begin: 2023-09-11 14:00
 panel-id: "I.2"
 ---
 

@@ -1,7 +1,7 @@
 ---
 speaker: Prof. Dr. Sabine Reh
 from: Bibliothek für Bildungsgeschichtliche Forschung/DIPF & Humboldt-Universität zu Berlin
-begin: "14:30"
+begin: 2023-09-11 14:30
 panel-id: "I.1"
 ---
 

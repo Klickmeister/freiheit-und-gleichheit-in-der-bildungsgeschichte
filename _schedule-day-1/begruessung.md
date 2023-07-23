@@ -1,8 +1,8 @@
 ---
 title: Begrüßung
 date: 2023-09-11
-begin: "12:00"
-end: "12:30"
+begin: 2023-09-11 12:00
+end: 2023-09-11 12:30
 venue: Dorotheenstraße 24, Haus 1, Raum 1.101
 ---
 

@@ -1,7 +1,7 @@
 ---
 speaker: Prof. Dr. Philipp Eigenmann
 from: Pädagogische Hochschule Thurgau
-begin: "10:00"
+begin: 2023-09-13 10:00
 panel-id: "V.3"
 ---
 

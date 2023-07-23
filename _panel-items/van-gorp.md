@@ -1,7 +1,7 @@
 ---
 speaker: Prof. Dr. Angelo van Gorp
 from: Technische Universität Kaiserslautern-Landa
-begin: "15.00"
+begin: 2023-09-11 15.00
 panel-id: "I.1"
 ---
 

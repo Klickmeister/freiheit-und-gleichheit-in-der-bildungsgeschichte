@@ -1,7 +1,7 @@
 ---
 speaker: Prof. Dr. Rita Casale
 from: Universität Wuppertal
-begin: "10:00"
+begin: 2023-09-13 10:00
 panel-id: "V.1"
 ---
 

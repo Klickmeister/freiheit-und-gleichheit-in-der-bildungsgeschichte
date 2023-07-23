@@ -1,7 +1,7 @@
 ---
 speaker: Prof. Dr. Sebastian Engelmann
 from: Pädagogische Hochschule Karlsruhe
-begin: "09:30"
+begin: 2023-09-12 09:30
 panel-id: "III.1"
 ---
 

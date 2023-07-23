@@ -1,7 +1,7 @@
 ---
 speaker: Prof. Dr. Adam Fijalkowski
 from: Universität Warschau
-begin: "14:30"
+begin: 2023-09-12 14:30
 panel-id: "IV.2"
 ---
 

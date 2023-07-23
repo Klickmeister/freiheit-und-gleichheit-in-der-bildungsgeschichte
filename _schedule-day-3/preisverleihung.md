@@ -1,8 +1,8 @@
 ---
 title: Preisverleihung
 date: 2023-09-13
-begin: "11:30"
-end: "12:00"
+begin: 2023-09-13 11:30
+end: 2023-09-13 12:00
 venue:
 ---
 

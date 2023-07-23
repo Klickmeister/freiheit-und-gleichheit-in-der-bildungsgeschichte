@@ -29,6 +29,7 @@ sass:
   sass_dir: assets/styles/scss
   style: :expanded # You might prefer to minify using :compressed
 
+timezone: Europe/Berlin
 
 # Exclude these files from your production _site
 exclude:
