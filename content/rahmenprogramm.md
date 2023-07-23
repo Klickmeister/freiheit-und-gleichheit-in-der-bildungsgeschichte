@@ -12,3 +12,5 @@ Die BBF lädt am Montag, 11. September 2023, ab 18:30 Uhr zur Eröffnung ihres n
 Im Anschluss haben Sie die Möglichkeit, selbst Objekte mit dem 3D-Scanner zu erfassen und an einer Führung durch die BBF-Räume teilzunehmen. 
 
 Die Teilnahme an der gesamten Veranstaltung ist kostenfrei, um Anmeldung wird bis zum 31. August 2023 unter <span class="rev">ed<!--scope-->.fpid@<!--never-->ekcinie<!--what-->h.c</span> gebeten. Wir freuen uns über Ihr Kommen und Ihr Interesse!
+
+Kontakt DHELab: [dhelab@dipf.de](dhelab@dipf.de)

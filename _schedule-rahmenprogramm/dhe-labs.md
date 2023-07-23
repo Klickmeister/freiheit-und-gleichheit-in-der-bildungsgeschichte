@@ -1,7 +1,7 @@
 ---
 title: DHELabs
 date: 2023-09-11
-begin: "20:00"
+begin: "20:15"
 end:
 ---
 

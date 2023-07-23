@@ -1,7 +1,7 @@
 ---
 title: 3D-Forschungsdaten
 date: 2023-09-11
-begin: "20:30"
+begin: "20:45"
 end:
 ---
 

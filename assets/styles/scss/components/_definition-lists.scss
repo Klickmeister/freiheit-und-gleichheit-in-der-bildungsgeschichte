@@ -1,0 +1,19 @@
+/* Simple List
+############################################################################ */
+
+
+dl.simple-def-list{
+
+  dt{
+    float: left;
+    font-weight: var(--fw-bold);
+  }
+
+  dt::after{
+    content: ":";
+    display: inline-block;
+    margin-right: var(--quad);
+  }
+  
+  padding-bottom: var(--fluid-space-s);
+}

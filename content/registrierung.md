@@ -3,8 +3,24 @@ title: Registrierung
 id: registrierung
 ---
 
-Es wird einen Link für die Registrierung und Bezahlung geben, wir haben ihn noch nicht!!
-Preise: XXXXXXXXXX
-Anreise zum Konferenzort:
-Komplette Adresse – Bild aus HU-Homepage – U- und S-Bahn Friedrichstraße
+Anmeldung unter: [https://hi.converia.de/frontend/index.php?sub=110](https://hi.converia.de/frontend/index.php?sub=110)
+
+### Preise:
+
+<dl class="simple-def-list">
+  <dt>Studierenden / Assoziierte Mitglieder</dt>
+  <dd>40 €
+  </dd>
+  <dt>Mitglieder
+  </dt>
+  <dd>80 €
+  </dd>
+  <dt>Nicht-Mitglieder
+  </dt>
+  <dd>100 €
+  </dd>
+</dl>
+
+### Anreise zum Konferenzort:
+siehe [Lage und Anfahrt der HU Berlin](https://www.hu-berlin.de/de/service/kontakt/lage-anfahrt/campus-mitte/standardseite)
 
