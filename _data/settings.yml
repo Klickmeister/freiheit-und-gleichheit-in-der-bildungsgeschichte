@@ -2,6 +2,16 @@ basic_settings:
   site_title: "Freiheit und Gleichheit in der Bildungsgeschichte"
   site_subtitle: Jahrestagung der Sektion Historische Bildungsforschung
   site_subtitle_2: 11.–13. September 2023
+  site_title_fjb: "15. Forum junger Bildungshistoriker:innen"
+  site_subtitle_fjb: "Emerging Researchers’ Conference for the History of Education"
+  site_subtitle_2_fjb: 08.–10. September 2023
   site_place: Berlin
+  site_place_fjb: Humboldt-Universität zu Berlin
   description: …
   edit_url: https://github.com/klickmeister/edit/main
+  navigation:
+    - "url": https://klickmeister.github.io/freiheit-und-gleichheit-in-der-bildungsgeschichte/
+      "name": Freiheit und Gleichheit in der Bildungsgeschichte
+    - "url": https://klickmeister.github.io/freiheit-und-gleichheit-in-der-bildungsgeschichte/index-forum-junger-bildungshistoriker/
+      "name": 15. Forum junger Bildungshistoriker:innen
+

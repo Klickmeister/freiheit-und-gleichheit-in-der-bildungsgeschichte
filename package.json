@@ -1,7 +1,7 @@
 {
-  "name": "medieninformatik-5.0",
+  "name": "Freiheit und Gleichheit",
   "version": "1.0.0",
-  "description": "Website zur Reakkreditierung der Medieninformatik Studiengänge an der TH Köln",
+  "description": "Jahrestagung der Sektion Historische Bildungsforschung",
   "main": "index.js",
   "scripts": {
     "lint": "stylelint assets/styles/scss/**/*.scss",

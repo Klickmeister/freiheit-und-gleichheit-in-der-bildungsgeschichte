@@ -17,6 +17,21 @@
       p, ul{
         margin-bottom: 0;
       }
+
+      p + p {
+        margin-top: var(--m);
+      }
+
+      p strong{
+        display: block;
+        color: var(--hu-blau-2);
+        font-weight: var(--fw-normal);
+      }
+
+      h3{
+        font-size: var(--m);
+        line-height: var(--lh-normal);
+      }
     }
   }
 
@@ -35,6 +50,7 @@
 
       dd{
         padding-top: var(--s);
+        padding-bottom: var(--s);
       }
     }
   }

@@ -1,0 +1,27 @@
+---
+layout: default-fjb
+---
+
+<section class="has-separator">
+  <h2>Programm</h2>
+
+  <div class="section">
+    <h3>Freitag, 08. September 2023</h3>
+    {% include schedule-fjb.html content-source="schedule-fjb-day-1" %}
+  </div>
+  
+  <div class="section">
+    <h3>Samstag, 09. September 2023</h3>
+    {% include schedule-fjb.html content-source="schedule-fjb-day-2" %}
+  </div>
+
+  <div class="section">
+    <h3>Sonntag, 10. September 2023</h3>
+      {% include schedule-fjb.html content-source="schedule-fjb-day-3" %}
+  </div>
+</section>
+
+<section class="has-separator">
+  <h2>Kontakt</h2>
+  {% include snippet.html snippet-id="kontakt-fjb" show-title=false hierachy-level=2 show-in-nav=true %}
+</section>

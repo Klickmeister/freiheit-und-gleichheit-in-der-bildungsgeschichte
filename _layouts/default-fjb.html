@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ site.data.settings.basic_settings.site_title_fjb }} // {% if page.title %}{{ page.title }}{% endif %}</title>
+
+    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicons/favicon.ico">
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/main.css">
+    
+    <script src="{{ site.baseurl }}/assets/scripts/main.js"></script>
+
+  </head>
+
+  <body class="{{ page.layout }}">
+    <div class="content-wrap">
+      {% include header-fjb.html header-separator=page.header-separator snippet-id=page.header-snippet-id %}
+  
+      <main>
+        {{ content }}
+      </main>
+    </div>
+
+    <aside class="sidebar">
+      {% include sidebar.html %}
+    </aside>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

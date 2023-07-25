@@ -50,6 +50,15 @@ collections:
   schedule-day-3:
     output: false
     sort_by: begin
+  schedule-fjb-day-1:
+    output: false
+    sort_by: begin
+  schedule-fjb-day-2:
+    output: false
+    sort_by: begin
+  schedule-fjb-day-3:
+    output: false
+    sort_by: begin
   schedule-rahmenprogramm:
     output: false
     sort_by: begin

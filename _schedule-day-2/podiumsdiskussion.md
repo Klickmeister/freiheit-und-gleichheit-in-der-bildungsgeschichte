@@ -6,7 +6,7 @@ end: 2023-09-12 13:00
 venue: 1.101
 ---
 
-Podiumsdiskussion. Leitung und Moderation: Prof. Dr. Sabine Reh. Raum: 1.101. 
+Podiumsdiskussion: "Wissen wir nicht alles? Wie müssen wir bildungshistorisch Ungleichheit erforschen?"
+Leitung und Moderation: Prof. Dr. Sabine Reh
 
-Teilnehmer:innen: 
-- Prof. Dr. Thomas Mergel (Humboldt-Universität zu Berlin) XXXXXXXX (weiter Infos folgen)
+mit Prof Dr. Thomas Mergel (Humboldt-Universität zu Berlin), Prof. Dr. Ingrid Miethe (Universität Gießen) u.a.

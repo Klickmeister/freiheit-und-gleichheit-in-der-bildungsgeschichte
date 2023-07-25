@@ -5,7 +5,7 @@
 
   &-from{
     color: var(--darker);
-    margin-top: calc(var(--fluid-space-s) * -1) !important;
+    margin-top: calc(var(--fluid-space-s) * -0.8) !important;
   }
 
   & + & {
@@ -16,7 +16,7 @@
     h3{
       font-weight: var(--fw-medium);
       padding-top: var(--fluid-space-s);
+      line-height: var(--lh-normal);
     }
-
   }
 }
