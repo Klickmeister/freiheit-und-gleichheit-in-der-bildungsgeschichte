@@ -1,4 +1,4 @@
-{% assign items=site.schedule-rahmenprogramm %}
+{% assign items=site.schedule-rahmenprogramm | sort: "begin"  %}
 
 <div class="schedule">
 {% for item in items %}
