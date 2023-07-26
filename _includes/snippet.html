@@ -5,9 +5,6 @@
 {% assign pages = site.pages | where: "id", snippet-id %}
 
 {% for page in pages %}
-
-
-
 {% if show-title %}
 <h{{level | plus: 1}} {% if show-in-nav %}id="{{page.name}}" title="{{page.title}}"{% endif %}>{{ page.title }}</h{{level | plus: 1}}>
 {% endif %}

@@ -96,11 +96,11 @@ ul {
   
   & > li {
     display: block;
+    display: flex;
 
     &::before {
       color: var(--dark);
       content: "»";
-      display: inline-block;
       padding-right: 0.5ch;
     }
   }
