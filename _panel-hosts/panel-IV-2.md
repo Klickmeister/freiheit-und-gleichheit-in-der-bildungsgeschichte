@@ -1,5 +1,5 @@
 ---
-title: Pädagogisierte Freiheit und Gleichheit
+title: Gleichheit und Auslese
 panel-id: IV.2
 host: Fanny-Lynne Isensee
 from: Humboldt-Universität zu Berlin

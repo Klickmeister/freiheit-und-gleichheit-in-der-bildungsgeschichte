@@ -1,7 +1,7 @@
 ---
 speaker: Wiebke Hiemesch
 from: Universität Hildesheim
-begin: 2023-09-13 09:30
+begin: 2023-09-13 09:00
 panel-id: "V.2"
 ---
 
