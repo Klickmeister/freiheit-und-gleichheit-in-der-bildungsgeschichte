@@ -8,7 +8,7 @@
     <p class="panel-venue">{{panel-meta.venue}}</p>
   </header>
 
-{% assign panel-items = site.panel-items | where: "panel-id", panel-id %}
+{% assign panel-items = site.panel-items | where: "panel-id", panel-id | sort: 'begin' %}
 {% for item in panel-items %}
   <h4><span class="begin">{{item.begin | date: "%H:%M" }} Uhr</span> {{item.speaker}}<span class="is-separator">//</span>{{item.from}}</h4>
   {{item.content}}
